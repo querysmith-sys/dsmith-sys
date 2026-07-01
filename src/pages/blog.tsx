@@ -30,8 +30,8 @@ export function Blog() {
     }, [])
     return (
         <>
-            <div className="max-w-2xl mx-auto py-16 md:py-24 space-y-12 px-4 tracking-tight">
-                {/* Header Section */}
+            <div className="max-w-2xl mx-auto h-screen py-8 md:py-12 flex flex-col px-4 tracking-tight overflow-hidden">
+
                 <section className="flex flex-col items-center text-center">
                     <div className="w-full mb-6">
                         <img
@@ -46,12 +46,11 @@ export function Blog() {
                     </h1>
                 </section>
 
-                <section className="flex justify-center border-y border-zinc-800/40 py-3">
+                <section className="flex justify-center border-y border-zinc-800/40 py-3 mt-6">
                     <SocialSection />
                 </section>
 
-                {/* Blog Post Index Timeline */}
-                <section className="space-y-4">
+                <section className="flex-1 overflow-y-auto space-y-4 pr-2 scrollbar-thin mt-10">
                     <div className="font-mono text-base leading-relaxed">
                         {metadata.map((data, index) => (
                             <div key={index} className="flex flex-col sm:flex-row sm:items-baseline space-y-1 sm:space-y-0 sm:space-x-4 group py-2">

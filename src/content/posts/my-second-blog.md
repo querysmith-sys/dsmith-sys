@@ -1,7 +1,7 @@
 ---
-title: "My First Blog"
-date: "Jun 31, 2026"
-slug: "my-first-blog"
+title: "My Second Blog"
+date: "Jul 1, 2026"
+slug: "my-second-blog"
 ---
 
 # Welcome to my post
