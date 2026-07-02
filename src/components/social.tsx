@@ -29,7 +29,7 @@ export function SocialSection() {
                     <Mail className="h-4 w-4" />
                     <span className="text-sm font-medium">Email</span>
                 </a>
-                <a href="/dsmith-sys/blog" className="hover:text-red-400 transition-colors flex gap-2 items-center">
+                <a href="/blog" className="hover:text-red-400 transition-colors flex gap-2 items-center">
 
                     <Newspaper className="h-4 w-4" />
                     <span className="text-sm font-medium">blogs</span>
