@@ -9,7 +9,7 @@ export function Home() {
                 <section className="flex items-center gap-6 border p-6 rounded-xl bg-slate-900 text-white font-mono">
 
                     <Avatar className="w-24 h-24 sm:w-32 sm:h-32 shrink-0 overflow-hidden rounded-full border-2 border-slate-700">
-                        <AvatarImage src="/profile.jpg" className="object-cover w-full h-full" alt="Profile" />
+                        <AvatarImage src="/dsmith-sys/profile.jpg" className="object-cover w-full h-full" alt="Profile" />
                         <AvatarFallback className="bg-slate-800 text-xl">CN</AvatarFallback>
                     </Avatar>
 
@@ -25,7 +25,7 @@ export function Home() {
                 <section className="w-full flex justify-center my-6">
                     <div className="w-full max-w-2xl px-4">
                         <img
-                            src="banner2.jpg"
+                            src="/dsmith-sys/banner2.jpg"
                             alt="Hello World banner"
                             className="w-full h-32 object-cover rounded-xl opacity-85"
                         />
