@@ -9,7 +9,6 @@ export function BlogContent() {
 
     useEffect(() => {
         const markdownFiles = import.meta.glob('../content/posts/*.md', { eager: true, query: 'raw' });
-
         Object.entries(markdownFiles).forEach(([filePath, fileContent]) => {
             if (slug && filePath.includes(slug)) {
                 const rawMarkdown = (fileContent as any).default;
