@@ -5,27 +5,27 @@ body {
   font-family: "Geist Variable", sans-serif;
 }
 @layer utilities {
-  /* Thin scrollbar for Modern Browsers (Firefox/Chrome) */
+  
   .scrollbar-thin {
-    scrollbar-width: thin; /* Firefox */
-    scrollbar-color: #27272a transparent; /* Firefox: thumb track */
+    scrollbar-width: thin; 
+    scrollbar-color: #27272a transparent; 
   }
 
-  /* Thin scrollbar for WebKit Browsers (Chrome, Safari, Edge) */
+
   .scrollbar-thin::-webkit-scrollbar {
-    width: 6px; /* Makes the vertical scrollbar narrow */
+    width: 6px; 
   }
 
   .scrollbar-thin::-webkit-scrollbar-track {
-    background: transparent; /* Seamless background */
+    background: transparent; 
   }
 
   .scrollbar-thin::-webkit-scrollbar-thumb {
-    background-color: #27272a; /* Zinc-800 to match your theme border */
-    border-radius: 9999px; /* Smooth rounded corners */
+    background-color: #27272a; 
+    border-radius: 9999px; 
   }
 
   .scrollbar-thin::-webkit-scrollbar-thumb:hover {
-    background-color: #3f3f46; /* Lighter zinc on hover */
+    background-color: #3f3f46; 
   }
 }

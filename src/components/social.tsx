@@ -2,9 +2,9 @@ import { Mail, Newspaper, GitFork } from 'lucide-react'
 
 export function SocialSection() {
     return (
-        <section className="flex justify-center items-center">
+        <section className="flex justify-center items-center flex-wrap">
 
-            <div className="flex items-center gap-10 text-slate-500">
+            <div className="flex flex-wrap justify-center items-center gap-6 md:gap-10 text-slate-500">
                 <a href="https://github.com/querysmith-sys" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors flex gap-2 items-center">
 
                     <GitFork className="h-4 w-4" />
